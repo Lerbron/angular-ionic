@@ -1,0 +1,1 @@
+/** * Created by admin on 2017/6/23. */app.controller('homeCtrl', function ($scope, mallService) {	var params = {		pageCode:0,		linenumber:100	};	mallService.getList(params).then( data => {		console.log(data);		$scope.list = data;	})});

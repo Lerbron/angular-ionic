@@ -1,0 +1,1 @@
+/** * Created by admin on 2017/6/23. */var baseService = angular.module('ng.service',[]);
